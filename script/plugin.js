@@ -4,9 +4,11 @@
 const swiper1 = new Swiper('.cloud_desc', {
     //슬라이드 진행 방향
     direction:'horizontal',
-    autoplay:{delay:5000},
+    autoplay:{delay:1000},
     loop:true,
     effect: 'cards',
+    observer: true,
+    observeParents: true,
     navigation:{
         nextEl:'.cloud_desc .swiper-button-next',
         prevEl:'.cloud_desc .swiper-button-prev'
@@ -15,47 +17,56 @@ const swiper1 = new Swiper('.cloud_desc', {
 const swiper2 = new Swiper('.cut_desc', {
     //슬라이드 진행 방향
     direction:'horizontal',
-    autoplay:{delay:5000},
+    autoplay:{delay:1000},
     loop:true,
     effect: 'cards',
+    observer: true,
+    observeParents: true,
     navigation:{
-        nextEl:'.cloud_desc .swiper-button-next',
-        prevEl:'.cloud_desc .swiper-button-prev'
+        nextEl:'.cut_desc .swiper-button-next',
+        prevEl:'.cut_desc .swiper-button-prev'
     }
 })
 const swiper3 = new Swiper('.color_desc', {
     //슬라이드 진행 방향
     direction:'horizontal',
-    autoplay:{delay:5000},
+    autoplay:{delay:1000},
     loop:true,
     effect: 'cards',
+    observer: true,
+    observeParents: true,
     navigation:{
-        nextEl:'.cloud_desc .swiper-button-next',
-        prevEl:'.cloud_desc .swiper-button-prev'
+        nextEl:'.color_desc .swiper-button-next',
+        prevEl:'.color_desc .swiper-button-prev'
     }
 })
 const swiper4 = new Swiper('.fusion_desc', {
     //슬라이드 진행 방향
     direction:'horizontal',
-    autoplay:{delay:5000},
+    autoplay:{delay:1000},
     loop:true,
     effect: 'cards',
+    observer: true,
+    observeParents: true,
     navigation:{
-        nextEl:'.cloud_desc .swiper-button-next',
-        prevEl:'.cloud_desc .swiper-button-prev'
+        nextEl:'.fusion_desc .swiper-button-next',
+        prevEl:'.fusion_desc .swiper-button-prev'
     }
 })
 const swiper5 = new Swiper('.fairlight_desc', {
     //슬라이드 진행 방향
     direction:'horizontal',
-    autoplay:{delay:5000},
+    autoplay:{delay:1000},
     loop:true,
     effect: 'cards',
+    observer: true,
+    observeParents: true,
     navigation:{
-        nextEl:'.cloud_desc .swiper-button-next',
-        prevEl:'.cloud_desc .swiper-button-prev'
+        nextEl:'.fairlight_desc .swiper-button-next',
+        prevEl:'.fairlight_desc .swiper-button-prev'
     }
 })
+// preventDefault('video')
 //--------------------------------------fullpage
         $('#wrap').fullpage({
             scrollBar:true,
@@ -67,7 +78,6 @@ const swiper5 = new Swiper('.fairlight_desc', {
             // showActiveTooltip:true,
             // menu:'nav',
             // anchors:['intro','special','project','contact'],
-            // //fullpage는 scrollTrigger와 함께 이용 불가
             // //fullpage(구) 제이쿼리 기능으로 애니메이션도 제이쿼리로 연결해야한다!!
             // onLeave:function(index, nextIndex, direction){
             //     console.log(index, nextIndex, direction)
