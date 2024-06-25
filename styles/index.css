@@ -171,12 +171,13 @@ main .s3 .wrap .new_function .show_func {}
 .show_func .swiper .swiper-wrapper .slide1 {}
 .show_func .swiper .swiper-wrapper .slide2 {}
 .show_func .swiper .swiper-wrapper .slide3 {}
-main .s3 .wrap .new_function .cloud_deco {
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    bottom: 75px; 
+main .s3 .wrap .new_function .cloud_deco .desc_deco {
+    display: inline-block; 
+    position: absolute; 
+    left: 0; 
+    bottom: 20px; 
 }
+main .s3 .wrap .new_function .cloud_deco {}
 main .s3 .wrap .new_function .cloud_deco p {}
 main .s3 .wrap .new_function .cloud_deco p img {}
 /* -----------s3_swiper cloud */
@@ -198,7 +199,11 @@ main .s3 .wrap .new_function .cloud_deco .deco_fusion {}
 /* -----------s3_swiper fairlight */
 main .s3 .wrap .new_function .menu_func #fairlight_btn {}
 .show_func .fairlight {}
-main .s3 .wrap .new_function .cloud_deco .deco_fairlight {}
+main .s3 .wrap .new_function .cloud_deco .deco_fairlight {
+    display: inline-block; 
+    position: absolute; 
+    left: 0; 
+    bottom: -14px; }
 /* -------------------------------------------------s4 */
 main .s4 {
     position: relative;
@@ -207,12 +212,12 @@ main .s4 {
 main .s4 .wrap {width: 1406px; text-align: center;}
 main .s4 .wrap h2 {padding-top: 51px;}
 main .s4 .wrap p {margin: 32px 0 36px;}
-main .s4 .wrap p:nth-child(3) {margin: 29px 0 0;}
+main .s4 .wrap p:nth-child(4) {margin: 29px 0 0;}
 main .s4 .wrap p:last-child {
     width: 100%;
     position: absolute;
     z-index: 1;
-    bottom: 40px;
+    bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -224,15 +229,16 @@ main .s5 {
 main .s5 .wrap {
 }
 main .s5 .wrap p {
-    padding-top: 66px;
-    margin-left: 252px;
+    padding-top: 40px;
+    margin-left: 304px;
 }
 main .s5 .wrap p img {
     margin-bottom: 55.41px;
 }
 main .s5 .wrap .deco {
     position: absolute;
-    right: 8px; top: 10px;
+    padding: 0;
+    right: 8px; top: 8px;
 }
 main .s5 .wrap .deco img {}
 /* -------------------------------------------------s6 */
