@@ -356,14 +356,14 @@ main .s13 .wrap {
     width: 1440px;
     text-align: center;
 }
-main .s13 .wrap h2 {padding-top: 192px;}
+main .s13 .wrap h2 {padding-top: 62px;}
 main .s13 .wrap .table {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     background-image: url(../images/bg13_deco.png);
     background-repeat: no-repeat;
-    margin-top: 93px; padding-bottom: 146.02px;
+    margin-top: 63px; padding-bottom: 86.02px;
 
 }
 main .s13 .wrap .table .downlord {
