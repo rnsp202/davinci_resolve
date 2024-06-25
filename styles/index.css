@@ -117,6 +117,7 @@ main .s3 .wrap h2 {
 main .s3 .wrap .new_function {
     text-align: center;
 }
+/* -----------s3_swiper 공통 */
 main .s3 .wrap .new_function .menu_func {
     display: flex;
     width: 950px;
@@ -124,14 +125,18 @@ main .s3 .wrap .new_function .menu_func {
     justify-content: space-around;
     margin: 0 auto;
 }
-main .s3 .wrap .new_function .menu_func a {
+main .s3 .wrap .new_function .menu_func .slide_btn:hover {color: #f36d6d;}
+main .s3 .wrap .new_function .menu_func .slide_btn {
     font-size: 1em;
-    /* color: #FFF; */
     color: #999;
+    transition: color 0.3s;
+}
+.menuBtnColor {
+    font-size: 1em; font-weight: 600;
+    color: #FFF !important;
 }
 main .s3 .wrap .new_function .show_func {}
 main .s3 .wrap .new_function .show_func {}
-/* -----------s3_swiper 공통 */
 .show_func .swiper {width: 950px;}
 .show_func .swiper .swiper-button-prev,
 .show_func .swiper .swiper-button-next {top: var(--swiper-navigation-top-offset,40%);
@@ -160,7 +165,7 @@ main .s3 .wrap .new_function .show_func {}
 }
 .show_func .swiper .swiper-wrapper .swiper-slide p {
     line-height: 1.6; 
-    /* letter-spacing: -0.2px; */
+    letter-spacing: -0.2px;
 }
 .show_func .swiper .swiper-wrapper .swiper-slide p em {font-weight: 600;}
 .show_func .swiper .swiper-wrapper .slide1 {}
@@ -175,40 +180,35 @@ main .s3 .wrap .new_function .cloud_deco {
 main .s3 .wrap .new_function .cloud_deco p {}
 main .s3 .wrap .new_function .cloud_deco p img {}
 /* -----------s3_swiper cloud */
-main .s3 .wrap .new_function .menu_func #cloud_btn {
-    font-size: 1em; font-weight: 600;
-    color: #FFF;
-}
+main .s3 .wrap .new_function .menu_func #cloud_btn {}
 .show_func .cloud {}
 main .s3 .wrap .new_function .cloud_deco .deco_cloud {}
 /* -----------s3_swiper cutEdit */
 main .s3 .wrap .new_function .menu_func #cut_btn {}
-.show_func .cutEdit {display: none;}
-main .s3 .wrap .new_function .cloud_deco .deco_cut {display: none;}
+.show_func .cutEdit {}
+main .s3 .wrap .new_function .cloud_deco .deco_cut {}
 /* -----------s3_swiper color */
 main .s3 .wrap .new_function .menu_func #color_btn {}
-.show_func .color {display: none;}
-main .s3 .wrap .new_function .cloud_deco .deco_color {display: none;}
+.show_func .color {}
+main .s3 .wrap .new_function .cloud_deco .deco_color {}
 /* -----------s3_swiper fusion */
 main .s3 .wrap .new_function .menu_func #fusion_btn {}
-.show_func .fusion {display: none;}
-main .s3 .wrap .new_function .cloud_deco .deco_fusion {display: none;}
+.show_func .fusion {}
+main .s3 .wrap .new_function .cloud_deco .deco_fusion {}
 /* -----------s3_swiper fairlight */
 main .s3 .wrap .new_function .menu_func #fairlight_btn {}
-.show_func .fairlight {display: none;}
-main .s3 .wrap .new_function .cloud_deco .deco_fairlight {display: none;}
+.show_func .fairlight {}
+main .s3 .wrap .new_function .cloud_deco .deco_fairlight {}
 /* -------------------------------------------------s4 */
 main .s4 {
     position: relative;
     background-image: url(../images/bg004.jpg);
 }
-main .s4 .wrap {text-align: center;}
+main .s4 .wrap {width: 1406px; text-align: center;}
 main .s4 .wrap h2 {padding-top: 51px;}
 main .s4 .wrap p {margin: 32px 0 36px;}
-main .s4 .wrap p:nth-child(2) {}
-main .s4 .wrap p:last-child {margin: 29px 0 0;}
-main .s4 .wrap p:last-child img {}
-main .s4 > p{
+main .s4 .wrap p:nth-child(3) {margin: 29px 0 0;}
+main .s4 .wrap p:last-child {
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -216,8 +216,7 @@ main .s4 > p{
     display: flex;
     justify-content: center;
 }
-main .s4 > p img {
-}
+main .s4 .wrap p:last-child img {}
 /* -------------------------------------------------s5 */
 main .s5 {
     background-image: url(../images/bg005.jpg);
@@ -233,7 +232,7 @@ main .s5 .wrap p img {
 }
 main .s5 .wrap .deco {
     position: absolute;
-    right: 8px; top: 40px;
+    right: 8px; top: 10px;
 }
 main .s5 .wrap .deco img {}
 /* -------------------------------------------------s6 */

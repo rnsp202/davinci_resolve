@@ -9,11 +9,6 @@
     <!--fullpage 플러그인(구) 제이쿼리 라이브러리 연결 필수-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--fullpage 플러그인(구) 연결 필수-->
-    <!-- 필수 플러그인 fullpage CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
-    <!-- 필수 플러그인 fullpage JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-    <link rel="stylesheet" href="./styles/jquery.fullPage.css">
     <script src="./script/jquery.fullPage.js"></script>
     <!-- swiper 플러그인 -->
     <!--플러그인 필수 css cdn 연결-->
@@ -25,6 +20,7 @@
     <!-- CSS, JS 연결 -->
     <link rel="stylesheet" href="./styles/index.css">
     <script src="./script/plugin.js" defer></script>
+    <script src="./script/index.js" defer></script>
 </head>
 <body>
     <main id="wrap">
@@ -56,11 +52,11 @@
                 <h2>DaVinci Resolve 19의 새로운 기능</h2>
                 <div class="new_function">
                     <div class="menu_func">
-                        <a href="#" id="cloud_btn">클라우드 협업 기능</a>
-                        <a href="#" id="cut_btn">Cut and Edit</a>
-                        <a href="#" id="color_btn">Color</a>
-                        <a href="#" id="fusion_btn">Fusion</a>
-                        <a href="#" id="fairlight_btn">Fairlight</a>
+                        <p class="slide_btn" id="cloud_btn">클라우드 협업 기능</p>
+                        <p class="slide_btn" id="cut_btn">Cut and Edit</p>
+                        <p class="slide_btn" id="color_btn">Color</p>
+                        <p class="slide_btn" id="fusion_btn">Fusion</p>
+                        <p class="slide_btn" id="fairlight_btn">Fairlight</p>
                     </div>
                     <div class="show_func">
                         <div class="cloud">
@@ -97,7 +93,7 @@
                         </div>
                         <div class="cutEdit">
                             <div class="content_func">
-                                <div class="swiper cloud_desc">
+                                <div class="swiper cut_desc">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide slide1">
                                             <div class="slide_contents">
@@ -129,7 +125,7 @@
                         </div>
                         <div class="color">
                             <div class="content_func">
-                                <div class="swiper cloud_desc">
+                                <div class="swiper color_desc">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide slide1">
                                             <div class="slide_contents">
@@ -161,7 +157,7 @@
                         </div>
                         <div class="fusion">
                             <div class="content_func">
-                                <div class="swiper cloud_desc">
+                                <div class="swiper fusion_desc">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide slide1">
                                             <div class="slide_contents">
@@ -193,7 +189,7 @@
                         </div>
                         <div class="fairlight">
                             <div class="content_func">
-                                <div class="swiper cloud_desc">
+                                <div class="swiper fairlight_desc">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide slide1">
                                             <div class="slide_contents">
@@ -225,11 +221,11 @@
                         </div>
                     </div>
                     <div class="cloud_deco">
-                        <p class="deco_cloud"><img src="./images/bg2_deco_cloud.png" alt=""></p>
-                        <p class="deco_cut"><img src="./images/bg2_deco_cloud.png" alt=""></p>
-                        <p class="deco_color"><img src="./images/bg2_deco_cloud.png" alt=""></p>
-                        <p class="deco_fusion"><img src="./images/bg2_deco_cloud.png" alt=""></p>
-                        <p class="deco_fairlight"><img src="./images/bg2_deco_cloud.png" alt=""></p>
+                        <p class="desc_deco deco_cloud"><img src="./images/bg3_deco_cloud.png" alt=""></p>
+                        <p class="desc_deco deco_cut"><img src="./images/bg3_deco_cut.png" alt=""></p>
+                        <p class="desc_deco deco_color"><img src="./images/bg3_deco_color.png" alt=""></p>
+                        <p class="desc_deco deco_fusion"><img src="./images/bg3_deco_fusion.png" alt=""></p>
+                        <p class="desc_deco deco_fairlight"><img src="./images/bg3_deco_fairlight.png" alt=""></p>
                     </div>
                 </div>
             </div>
@@ -240,8 +236,8 @@
                 <p>Blackmagic Cloud 웹사이트를 사용하여<br><em>전 세계 어디서나 프로젝트를 호스팅 및 접속할 수 있습니다.</em><br>이제 편집자, 컬러리스트, 시각 효과 아티스트, 음향 엔지니어들과<br><em>동시에 협업</em>할 수 있게 되었습니다. </p>
                 <p>무엇보다도 파일 불러오기 및 보내기,<br>프로젝트 변환, 변경 사항 컨폼 및 관리를 하지 않아도 되며<br>작업이 손실될 염려도 없습니다.</p>
                 <p><img src="./images/image001.png" alt=""></p>
+                <p><img src="./images/desc4.png" alt=""></p>
             </div>
-            <p><img src="./images/desc4.png" alt=""></p>
         </div>
         <div class="section s5">
             <div class="wrap">
