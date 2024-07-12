@@ -12,7 +12,7 @@
 * [메인페이지](https://shillashop-yujin.netlify.app/)
 
 # figma 작업 (와이어프레임)
-* [figam주소](https://www.figma.com/design/k8F2n3mLGZsvvMDbxjUhxb/%ED%8F%AC%ED%8F%B4-%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=0-1&t=r2vaF6Uu0MEkvaO2-1)
+* [figam주소](https://www.figma.com/design/3YKWEMfbr7Fyvth7eCP4hr/DaVinci-Resolve-%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80-figma?node-id=0-1&t=TZb68fUYtJWGdiuu-1)
 
 # 작업 이력
 * (~ 06. 20) 와이어프레임 제작, 와이어프레임을 토대로 디자인 시안 완성(1차)
